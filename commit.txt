@@ -1,3 +1,0 @@
-next commit message:
-
-added some explenatory comments to html, 
