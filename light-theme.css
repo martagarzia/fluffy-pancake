@@ -1,1 +1,79 @@
-/* style of the page when set to lgiht theme (controlled by user device) *\
+/* style of the page when set to lgiht theme (controlled by user device) */
+
+/*outfit font from https://fonts.google.com/specimen/Outfit*/
+body {
+    background-color: #ffffff;
+    font-family: 'Outfit', 'Helvetica', 'Arial', sans-serif; /* outfit = main font. Helvetica = fallback iOS font. Arial = fallback Windows font. sans-serif = fallback universal font */
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 2em; /*'em' is a relative unit, it's relative to the parent font size adn scaling. 'px' is absolute, fixed.*/
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333333;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00009c;
+    text-decoration: underline;
+}
+
+article {
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 20px;
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    border-radius: 20px;
+}
+
+section {
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #777777;
+}
+
+/* button styling */
+
+button {
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004999;
+}
